@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-esnext",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Pluggable eslint config for ECMAScript Next that you can import and extend",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/kunalgolani/eslint-config/issues"
   },
-  "homepage": "https://github.com/kunalgolani/eslint-config/esnext#readme"
+  "homepage": "https://github.com/kunalgolani/eslint-config/esnext#readme",
+  "dependencies": {
+    "babel-eslint": "~6.1.0",
+    "eslint-plugin-babel": "~3.3.0"
+  }
 }

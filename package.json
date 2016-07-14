@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "babel-eslint": "~6.1.0",
+    "eslint-config-esnext": "~0.0.3",
     "eslint-plugin-babel": "~3.3.0"
   }
 }

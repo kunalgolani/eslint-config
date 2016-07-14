@@ -1,4 +1,8 @@
 module.exports = {
+	plugins: [
+		'babel'
+	],
+
 	rules: {
 		'array-bracket-spacing': [ 2, 'always' ],
 		'arrow-parens': [ 2, 'as-needed' ],

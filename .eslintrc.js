@@ -4,7 +4,7 @@ module.exports = {
 	},
 
 	extends: [
-		'./esnext',
-		'./esnext/style-guide'
-	].map(require.resolve)
+		'esnext',
+		'esnext/style-guide'
+	]
 }
