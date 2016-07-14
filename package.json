@@ -4,6 +4,8 @@
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import and extend",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "precommit": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -36,7 +38,8 @@
   "devDependencies": {
     "babel-cli": "~6.10.0",
     "babel-plugin-transform-es2015-modules-commonjs": "~6.10.0",
-    "eslint": "~3.0.0"
+    "eslint": "~3.0.0",
+    "husky": "~0.11.4"
   },
   "dependencies": {
     "babel-eslint": "~6.1.0",
