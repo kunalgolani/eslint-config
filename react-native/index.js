@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	extends: [
 		'esnext',
 		'plugin:react/recommended'
@@ -20,7 +20,7 @@ export default {
 		'react/jsx-key': 1,
 		'react/jsx-pascal-case': 2,
 		'react/no-multi-comp': [ 2, {
-			'ignoreStateless': true
+			ignoreStateless: true
 		} ],
 		'react/no-render-return-value': 2,
 		'react/no-string-refs': 2,

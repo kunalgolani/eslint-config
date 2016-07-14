@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	env: {
 		es6: true
 	},
@@ -10,6 +10,7 @@ export default {
 		sourceType: 'module',
 		ecmaFeatures: {
 			impliedStrict: true,
+			modules: true,
 			experimentalObjectRestSpread: true
 		}
 	},
@@ -28,7 +29,7 @@ export default {
 			checkLoops: false
 		} ],
 		'no-duplicate-imports': 2,
-		'no-empty': 2
+		'no-empty': 2,
 		'no-empty-function': 2,
 		'no-extra-semi': 2,
 		'no-lonely-if': 2,
@@ -37,11 +38,11 @@ export default {
 		'no-unexpected-multiline': 2,
 		'no-unmodified-loop-condition': 2,
 		'no-unneeded-ternary': [ 2, {
-			'defaultAssignment': false
+			defaultAssignment: false
 		} ],
 		'no-unused-expressions': [ 2, {
-			'allowTernary': true,
-			'allowShortCircuit': true
+			allowTernary: true,
+			allowShortCircuit: true
 		} ],
 		'no-use-before-define': [ 2, 'nofunc' ],
 		'no-var': 2,

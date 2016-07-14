@@ -32,5 +32,14 @@
   "bugs": {
     "url": "https://github.com/kunalgolani/eslint-config/issues"
   },
-  "homepage": "https://github.com/kunalgolani/eslint-config#readme"
+  "homepage": "https://github.com/kunalgolani/eslint-config#readme",
+  "devDependencies": {
+    "babel-cli": "~6.10.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "~6.10.0",
+    "eslint": "~3.0.0"
+  },
+  "dependencies": {
+    "babel-eslint": "~6.1.0",
+    "eslint-plugin-babel": "~3.3.0"
+  }
 }

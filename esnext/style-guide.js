@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	rules: {
 		'array-bracket-spacing': [ 2, 'always' ],
 		'arrow-parens': [ 2, 'as-needed' ],
@@ -6,17 +6,17 @@ export default {
 		'babel/generator-star-spacing': 2,
 		'block-spacing': 2,
 		'brace-style': 2,
-		'camelcase': [ 2, {
+		camelcase: [ 2, {
 			properties: 'never'
 		} ],
 		'comma-spacing': 2,
 		'comma-style': 2,
 		'computed-property-spacing': 2,
 		'consistent-this': 2,
-		'curly': [ 2, 'multi' ],
+		curly: [ 2, 'multi' ],
 		'dot-location': [ 2, 'property' ],
 		'generator-star-spacing': 1,
-		'indent': [ 2, 'tab', {
+		indent: [ 2, 'tab', {
 			SwitchCase: 1
 		} ],
 		'key-spacing': 1,
@@ -31,8 +31,8 @@ export default {
 		'one-var-declaration-per-line': [ 2, 'initializations' ],
 		'operator-linebreak': [ 2, 'before' ],
 		'quote-props': [ 2, 'as-needed' ],
-		'quotes': [ 2, 'single' ],
-		'semi': [ 2, 'never' ],
+		quotes: [ 2, 'single' ],
+		semi: [ 2, 'never' ],
 		'sort-imports': 2,
 		'space-before-blocks': 2,
 		'space-before-function-paren': [ 2, 'always' ],

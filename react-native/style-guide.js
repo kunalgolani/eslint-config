@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	extends: 'esnext/style-guide',
 
 	rules: {
@@ -9,11 +9,11 @@ export default {
 		'react/jsx-indent': [ 2, 'tab' ],
 		'react/jsx-indent-props': [ 2, 'tab' ],
 		'react/jsx-max-props-per-line': [ 2, {
-			'maximum': 2
+			maximum: 2
 		} ],
 		'react/jsx-sort-props': [ 2, {
-			'shorthandFirst': true,
-			'callbacksLast': true
+			shorthandFirst: true,
+			callbacksLast: true
 		} ],
 		'react/jsx-space-before-closing': 2,
 		'react/self-closing-comp': 2,
