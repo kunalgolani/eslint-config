@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-node",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Pluggable eslint config for Node.js that you can import and extend",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config/node#readme",
   "dependencies": {
-    "eslint-config-esnext": "~0.0.3"
+    "eslint-config-esnext": "~0.1.0"
   },
   "devDependencies": {
     "js-yaml": "~3.6.1"
