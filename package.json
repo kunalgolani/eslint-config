@@ -39,7 +39,7 @@
     "babel-cli": "~6.10.0",
     "babel-plugin-transform-es2015-modules-commonjs": "~6.10.0",
     "eslint": "~3.0.0",
-    "eslint-config-esnext": "~0.0.3",
+    "eslint-config-node": "~0.0.2",
     "husky": "~0.11.4"
   },
   "dependencies": {

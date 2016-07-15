@@ -4,9 +4,5 @@ module.exports = {
 		node: true
 	},
 
-	extends: 'esnext',
-
-	rules: {
-
-	}
+	extends: 'esnext'
 }
