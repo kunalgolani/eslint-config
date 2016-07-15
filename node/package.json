@@ -4,7 +4,8 @@
   "description": "Pluggable eslint config for Node.js that you can import and extend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "js-yaml index.yaml > index.json && js-yaml style-guide.yaml > style-guide.json"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   "keywords": [
     "eslint",
     "eslint-config",
+    "eslintconfig",
     "node",
     "node.js"
   ],
@@ -27,5 +29,8 @@
   "homepage": "https://github.com/kunalgolani/eslint-config/node#readme",
   "dependencies": {
     "eslint-config-esnext": "~0.0.3"
+  },
+  "devDependencies": {
+    "js-yaml": "~3.6.1"
   }
 }

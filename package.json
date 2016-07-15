@@ -4,9 +4,8 @@
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import and extend",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "precommit": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "cd esnext && npm run prepublish && cd ../node && npm run prepublish && cd ../react-native && npm run prepublish && cd .."
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,7 @@
   "keywords": [
     "eslint",
     "eslint-config",
+    "eslintconfig",
     "esnext",
     "es6",
     "es7",
@@ -38,12 +38,11 @@
   "devDependencies": {
     "babel-cli": "~6.10.0",
     "babel-plugin-transform-es2015-modules-commonjs": "~6.10.0",
-    "eslint": "~3.0.0",
-    "eslint-config-node": "~0.0.2",
-    "husky": "~0.11.4"
+    "js-yaml": "~3.6.1"
   },
   "dependencies": {
     "babel-eslint": "~6.1.0",
+    "eslint-config-esnext": "~0.0.3",
     "eslint-plugin-babel": "~3.3.0",
     "eslint-plugin-react": "~5.2.2",
     "eslint-plugin-react-native": "~1.1.0"

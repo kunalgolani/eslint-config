@@ -4,7 +4,8 @@
   "description": "Pluggable ESLint config for React Native that you can import and extend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "js-yaml index.yaml > index.json && js-yaml style-guide.yaml > style-guide.json"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   "keywords": [
     "eslint",
     "eslint-config",
+    "eslintconfig",
     "react",
     "reactjs",
     "react-native"
@@ -30,5 +32,8 @@
     "eslint-config-esnext": "~0.0.3",
     "eslint-plugin-react": "~5.2.2",
     "eslint-plugin-react-native": "~1.1.0"
+  },
+  "devDependencies": {
+    "js-yaml": "~3.6.1"
   }
 }
