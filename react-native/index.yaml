@@ -1,18 +1,17 @@
 ---
-  extends:
-    - esnext
-    - plugin:react/recommended
-
   plugins:
     - react
     - react-native
+
+  extends:
+    - esnext
+    - plugin:react/recommended
 
   rules:
     react-native/no-color-literals: 2
     react-native/no-inline-styles: 2
     react-native/no-unused-styles: 2
     react-native/split-platform-components: 2
-    react/display-name: 0
     react/jsx-boolean-value: 2
     react/jsx-handler-names: 2
     react/jsx-key: 1

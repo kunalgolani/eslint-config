@@ -2,6 +2,7 @@
   extends: esnext/style-guide
 
   rules:
+    jsx-quotes: 2
     react/jsx-closing-bracket-location:
       - 2
       - line-aligned

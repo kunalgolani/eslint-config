@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "cd esnext && npm run prepublish && cd ../node && npm run prepublish && cd ../react-native && npm run prepublish && cd .."
+    "precommit": "cd esnext && npm run prepublish && cd ../node && npm run prepublish && cd ../react-native && npm run prepublish && cd ..",
+    "prepublish": "npm run precommit"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
   "devDependencies": {
     "babel-cli": "~6.10.0",
     "babel-plugin-transform-es2015-modules-commonjs": "~6.10.0",
+    "husky": "~0.11.5",
     "js-yaml": "~3.6.1"
   },
   "dependencies": {

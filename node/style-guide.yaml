@@ -1,2 +1,2 @@
 ---
-extends: esnext/style-guide
+  extends: esnext/style-guide
