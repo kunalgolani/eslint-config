@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-native",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pluggable ESLint config for React Native that you can import, extend and override",
   "main": "index.js",
   "scripts": {
