@@ -78,7 +78,7 @@ provides [React](https://github.com/yannickcr/eslint-plugin-react#list-of-suppor
   rules:
 ```
 
-selected [from here`](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules), configured to:
+selected [from here](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules), configured to:
 
 - [`react-native/no-color-literals`](https://github.com/Intellicode/eslint-plugin-react-native/blob/master/docs/rules/no-color-literals.md): detect `StyleSheet` rules and inline styles containing color literals instead of variables
 - [`react-native/no-inline-styles`](https://github.com/Intellicode/eslint-plugin-react-native/blob/master/docs/rules/no-inline-styles.md): detect JSX components with inline styles that contain literal values
