@@ -1,4 +1,4 @@
-## Pluggable [eslint](http://eslint.org/docs/about/) [config](http://eslint.org/docs/developer-guide/shareable-configs) for [ECMAScript Next](kangax.github.io/compat-table/esnext) that you can import, extend and override
+## Pluggable [ESLint](http://eslint.org/docs/about/) [config](http://eslint.org/docs/developer-guide/shareable-configs) for [ECMAScript Next](kangax.github.io/compat-table/esnext) that you can import, extend and override
 
 #### Usage
 
