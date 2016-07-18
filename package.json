@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-recommended",
   "version": "0.1.1",
-  "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import and extend",
+  "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -42,6 +42,15 @@
   },
   "dependencies": {
     "babel-eslint": "~6.1.0",
+    "eslint": "~3.0.0",
+    "eslint-config-esnext": "~0.1.0",
+    "eslint-plugin-babel": "~3.3.0",
+    "eslint-plugin-react": "~5.2.2",
+    "eslint-plugin-react-native": "~1.1.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "~6.1.0",
+    "eslint": "~3.0.0",
     "eslint-config-esnext": "~0.1.0",
     "eslint-plugin-babel": "~3.3.0",
     "eslint-plugin-react": "~5.2.2",
