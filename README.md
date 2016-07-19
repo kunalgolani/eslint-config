@@ -1,5 +1,7 @@
 ## eslint-config
 
+[![Join the chat at https://gitter.im/kunalgolani/eslint-config](https://badges.gitter.im/kunalgolani/eslint-config.svg)](https://gitter.im/kunalgolani/eslint-config?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Pluggable [ESLint](http://eslint.org/docs/about/) [configs](http://eslint.org/docs/developer-guide/shareable-configs) for [ECMAScript Next](kangax.github.io/compat-table/esnext), [Node.js](nodejs.org) and [React Native](facebook.github.io/react-native) that you can import, extend and override
 
 #### Usage
