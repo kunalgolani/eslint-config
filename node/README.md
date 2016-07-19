@@ -14,14 +14,13 @@ And in your `.eslintrc.yaml`:
 ---
   extends:
     - node
-    - node/style-guide #optional
 ```
 
 Alternatively, in your `.eslintrc.js` or `.eslintrc.json`:
 
 ```json
 {
-  "extends": ["node", "node/style-guide"]
+  "extends": ["node"]
 }
 ```
 
@@ -54,7 +53,7 @@ And in your `package.json`:
   extends: esnext
 ```
 
-includes rules from [eslint-config-esnext](https://github.com/kunalgolani/eslint-config/tree/master/esnext#safety-checks-and-best-practices-supporting-commonly-used-esnext-features-with-a-bias-toward-code-concision--brevity)
+includes config and rules from [eslint-config-esnext](https://github.com/kunalgolani/eslint-config/tree/master/esnext)
 
 ```yaml
   rules:
@@ -65,14 +64,3 @@ selected [from here](http://eslint.org/docs/rules/#nodejs-and-commonjs), configu
 - [`no-path-concat`](http://eslint.org/docs/rules/no-path-concat): disallow string concatenation with `__dirname` and `__filename`
 - [`no-process-exit`](http://eslint.org/docs/rules/no-process-exit): disallow the use of `process.exit()`
 - [`no-sync`](http://eslint.org/docs/rules/no-sync): disallow synchronous methods; set to warn only
-
----
-
-#### style-guide: for consistency, readability and more brevity
-
-```yaml
----
-  extends: esnext/style-guide
-```
-
-includes rules from [eslint-config-esnext](https://github.com/kunalgolani/eslint-config/tree/master/esnext#style-guide-for-consistency-readability-and-more-brevity)
