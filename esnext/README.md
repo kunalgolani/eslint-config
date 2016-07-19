@@ -1,5 +1,7 @@
 ## Pluggable [ESLint](http://eslint.org/docs/about/) [config](http://eslint.org/docs/developer-guide/shareable-configs) for [ECMAScript Next](kangax.github.io/compat-table/esnext) that you can import, extend and override
 
+### ESNext: Safety Checks and Best Practices with a bias toward code concision / brevity
+
 #### Usage
 
 In your js project directory:
@@ -48,7 +50,9 @@ And in your `package.json`:
 
 ---
 
-#### safety checks and best practices supporting commonly used ESNext features with a bias toward code concision / brevity
+#### Config
+
+This config is biased and opinionated, and errs on the side of too many rules instead of too few. Think of this as a superset of your repo's lint config, and discard what you don't like in it. It's easy to override and disable the rules you find inconvenient.
 
 ```yaml
   env:
@@ -171,3 +175,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`prefer-const`](http://eslint.org/docs/rules/prefer-const): require `const` declarations for variables that are never reassigned after declared
 - [`prefer-rest-params`](http://eslint.org/docs/rules/prefer-rest-params): require rest parameters instead of `arguments`
 - [`prefer-spread`](http://eslint.org/docs/rules/prefer-spread): require spread operator instead of `.apply()`
+
+---
+
+### [ESNext Style Guide](https://github.com/kunalgolani/eslint-config/tree/master/esnext/style-guide)

@@ -1,5 +1,7 @@
 ## Pluggable [ESLint](http://eslint.org/docs/about/) [config](http://eslint.org/docs/developer-guide/shareable-configs) for [React Native](facebook.github.io/react-native) that you can import, extend and override
 
+### React Native: Safety Checks and Best Practices with a bias toward code concision / brevity
+
 #### Usage
 
 In your js project directory:
@@ -40,7 +42,9 @@ And in your `package.json`:
 
 ---
 
-#### safety checks and best practices supporting commonly used ESNext features with a bias toward code concision / brevity
+#### Config
+
+This config is biased and opinionated, and errs on the side of too many rules instead of too few. Think of this as a superset of your repo's lint config, and discard what you don't like in it. It's easy to override and disable the rules you find inconvenient.
 
 ```yaml
   plugins:
@@ -94,3 +98,7 @@ selected [from here](https://github.com/yannickcr/eslint-plugin-react#list-of-su
 - [`react/prefer-stateless-function`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md): enforce stateless React Components to be written as a pure function
 - [`react/require-render-return`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md): prevent missing `return` in `render()`
 - [`react/wrap-multilines`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md): prevent missing parentheses around multiline JSX
+
+---
+
+### [React Native Style Guide](https://github.com/kunalgolani/eslint-config/tree/master/react-native/style-guide)
