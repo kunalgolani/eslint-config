@@ -55,6 +55,13 @@ And in your `package.json`:
 This config is biased and opinionated, and errs on the side of too many rules instead of too few. Think of this as a superset of your repo's lint config, and discard what you don't like in it. It's easy to override and disable the rules you find inconvenient.
 
 ```yaml
+  env:
+    browser: true
+```
+
+[enables](http://eslint.org/docs/user-guide/configuring#specifying-environments) browser features and global variables
+
+```yaml
   plugins:
     - react
     - react-native

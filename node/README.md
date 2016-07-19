@@ -59,7 +59,7 @@ This config is biased and opinionated, and errs on the side of too many rules in
     node: true
 ```
 
-[enables](http://eslint.org/docs/user-guide/configuring#specifying-environments) node.js features and global variables
+[enables](http://eslint.org/docs/user-guide/configuring#specifying-environments) Node.js features and global variables
 
 ```yaml
   extends: esnext

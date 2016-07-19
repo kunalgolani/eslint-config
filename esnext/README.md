@@ -65,9 +65,10 @@ This config is biased and opinionated, and errs on the side of too many rules in
 ```yaml
   env:
     es6: true
+    commonjs: true
 ```
 
-[enables](http://eslint.org/docs/user-guide/configuring#specifying-environments) [es6 features](https://github.com/lukehoban/es6features#readme)
+[enables](http://eslint.org/docs/user-guide/configuring#specifying-environments) [ES6 features](https://github.com/lukehoban/es6features#readme) and [CommonJS modules](https://www.wikiwand.com/en/CommonJS)
 
 ```yaml
   parser: babel-eslint
