@@ -1,5 +1,13 @@
 ## Pluggable [ESLint](http://eslint.org/docs/about/) [config](http://eslint.org/docs/developer-guide/shareable-configs) for [ECMAScript Next](kangax.github.io/compat-table/esnext) that you can import, extend and override
 
+[![Join the chat at https://gitter.im/kunalgolani/eslint-config ][gitter-img]][gitter-url]
+[![npm version][version-img]][npm-url]
+[![npm downloads][downloads-img]][npm-url]
+[![GitHub issues][issues-img]][issues-url]
+[![Deps][deps-img]][deps-url]
+[![Dev Deps][devDeps-img]][deps-url]
+
+
 ### ESNext: Safety Checks and Best Practices with a bias toward code concision / brevity
 
 #### Usage
@@ -145,6 +153,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`no-constant-condition`](http://eslint.org/docs/rules/no-constant-condition): override `eslint:recommended` with `checkLoops: false` to avoid errors in infinite [generators](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/function*)
 - [`no-duplicate-imports`](http://eslint.org/docs/rules/no-duplicate-imports): disallow duplicate module imports
 - [`no-empty-function`](http://eslint.org/docs/rules/no-empty-function): disallow empty functions
+- [`no-else-return`](http://eslint.org/docs/rules/no-else-return): disallow `else` blocks after `return` statements in `if` blocks
 - [`no-eval`](http://eslint.org/docs/rules/no-eval): disallow the use of `eval()`
 - [`no-extend-native`](http://eslint.org/docs/rules/no-extend-native): disallow extending built-in or native objects
 - [`no-extra-bind`](http://eslint.org/docs/rules/no-extra-bind): disallow binding functions that don't use `this`
@@ -153,10 +162,13 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`no-invalid-this`](http://eslint.org/docs/rules/no-invalid-this): disallow `this` outside of constructors, classes or methods
 - [`no-lonely-if`](http://eslint.org/docs/rules/no-lonely-if): disallow `if` statements as the only statement in `else` blocks
 - [`no-loop-func`](http://eslint.org/docs/rules/no-loop-func): disallow `function`s inside loops
+- [`no-new`](http://eslint.org/docs/rules/no-new): disallow `new` operators outside of assignments or comparisons
 - [`no-new-func`](http://eslint.org/docs/rules/no-new-func): disallow creating functions with the `Function` constructor
 - [`no-new-wrappers`](http://eslint.org/docs/rules/no-new-wrappers): disallow creating objects with the `String`, `Number`, and `Boolean` constructors
 - [`no-proto`](http://eslint.org/docs/rules/no-proto): disallow use of the `__proto__` property
 - [`no-script-url`](http://eslint.org/docs/rules/no-script-url): disallow `javascript:` urls
+- [`no-self-compare`](http://eslint.org/docs/rules/no-self-compare): disallow comparisons where both sides are exactly the same
+- [`no-throw-literal`](http://eslint.org/docs/rules/no-throw-literal): disallow throwing literals as exceptions
 - [`no-unmodified-loop-condition`](http://eslint.org/docs/rules/no-unmodified-loop-condition): enforce updating the loop condition in each iteration
 - [`no-unneeded-ternary`](http://eslint.org/docs/rules/no-unneeded-ternary): disallow ternary operators when simpler alternatives exist; `defaultAssignment: false` prefers `||` for default assignments
 - [`no-unused-expressions`](http://eslint.org/docs/rules/no-unused-expressions): disallow expressions that have no effect on the state of the program, with `allowShortCircuit: true` and `allowTernary: true` allowing `&&`, `||` and the ternary operator as shorthands for `if` and `else`
@@ -179,3 +191,15 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 ---
 
 ### [ESNext Style Guide](https://github.com/kunalgolani/eslint-config/tree/master/esnext/style-guide)
+
+
+[gitter-img]: https://badges.gitter.im/kunalgolani/eslint-config.svg
+[gitter-url]: https://gitter.im/kunalgolani/eslint-config?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+[version-img]: https://img.shields.io/npm/v/eslint-config-esnext.svg
+[npm-url]: https://www.npmjs.com/package/eslint-config-esnext
+[downloads-img]: https://img.shields.io/npm/dt/eslint-config-esnext.svg
+[issues-img]: https://img.shields.io/github/issues-raw/kunalgolani/eslint-config.svg?maxAge=2592000
+[issues-url]: https://github.com/kunalgolani/eslint-config/issues
+[deps-img]: https://img.shields.io/david/kunalgolani/eslint-config.svg
+[devDeps-img]: https://img.shields.io/david/dev/kunalgolani/eslint-config.svg
+[deps-url]: https://github.com/kunalgolani/eslint-config/blob/master/esnext/package.json
