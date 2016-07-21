@@ -37,14 +37,12 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config#readme",
   "devDependencies": {
-    "babel-cli": "~6.10.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "~6.10.0",
     "husky": "~0.11.5",
     "js-yaml": "~3.6.1"
   },
   "dependencies": {
     "babel-eslint": "~6.1.0",
-    "eslint": "~3.0.0",
+    "eslint": "~3.1.0",
     "eslint-config-esnext": "~1.2.0",
     "eslint-plugin-babel": "~3.3.0",
     "eslint-plugin-react": "~5.2.2",
@@ -52,7 +50,7 @@
   },
   "peerDependencies": {
     "babel-eslint": "~6.1.0",
-    "eslint": "~3.0.0",
+    "eslint": "~3.1.0",
     "eslint-config-esnext": "~1.2.0",
     "eslint-plugin-babel": "~3.3.0",
     "eslint-plugin-react": "~5.2.2",
