@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-recommended",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
   "main": "index.js",
   "scripts": {
