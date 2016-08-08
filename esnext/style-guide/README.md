@@ -75,6 +75,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`block-spacing`](http://eslint.org/docs/rules/block-spacing): enforce spacing inside single-line blocks
 - [`brace-style`](http://eslint.org/docs/rules/brace-style): enforce [K&R brace style](https://www.wikiwand.com/en/Indent_style#/K.26R_style)
 - [`camelcase`](http://eslint.org/docs/rules/camelcase): enforce camelcase naming convention, ignore object properties
+- [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle): require trailing commas in multiline objects and arrays
 - [`comma-spacing`](http://eslint.org/docs/rules/comma-spacing): disallow spacing before and enforce after commas
 - [`comma-style`](http://eslint.org/docs/rules/comma-style): allow commas only after and on the same line as an array element, object property, or variable declaration
 - [`computed-property-spacing`](http://eslint.org/docs/rules/computed-property-spacing): disallow spaces inside computed property brackets
