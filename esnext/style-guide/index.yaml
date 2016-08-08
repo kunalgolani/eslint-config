@@ -67,9 +67,7 @@
     semi-spacing: 2
     sort-imports: 2
     space-before-blocks: 2
-    space-before-function-paren:
-      - 2
-      - always
+    space-before-function-paren: 2
     space-in-parens: 2
     space-infix-ops: 2
     space-unary-ops: 2
@@ -77,4 +75,7 @@
     template-curly-spacing:
       - 2
       - always
+    trailing-commas:
+      - 2
+      - always-multiline
     valid-jsdoc: 1
