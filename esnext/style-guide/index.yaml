@@ -31,6 +31,9 @@
       - 2
       - property
     generator-star-spacing: 1
+    import/extensions: 2
+    import/imports-first: 2
+    import/newline-after-import: 2
     indent:
       - 2
       - tab

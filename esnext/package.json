@@ -33,7 +33,8 @@
   "dependencies": {
     "babel-eslint": "~6.1.0",
     "eslint": "~3.2.0",
-    "eslint-plugin-babel": "~3.3.0"
+    "eslint-plugin-babel": "~3.3.0",
+    "eslint-plugin-import": "~1.14.0"
   },
   "devDependencies": {
     "js-yaml": "~3.6.1"
@@ -41,6 +42,7 @@
   "peerDependencies": {
     "babel-eslint": "~6.1.0",
     "eslint": "~3.2.0",
-    "eslint-plugin-babel": "~3.3.0"
+    "eslint-plugin-babel": "~3.3.0",
+    "eslint-plugin-import": "~1.14.0"
   }
 }

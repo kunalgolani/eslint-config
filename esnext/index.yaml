@@ -13,13 +13,24 @@
       modules: true
       experimentalObjectRestSpread: true
 
-  extends: eslint:recommended
+  extends:
+    - eslint:recommended
+    - plugin:import/errors
+    - plugin:import/warnings
 
   rules:
     array-callback-return: 2
     arrow-body-style: 2
     dot-notation: 2
     eqeqeq: 2
+    import/no-amd: 2
+    import/no-commonjs: 2
+    import/no-duplicates: 2
+    import/no-extraneous-dependencies: 2
+    import/no-mutable-exports: 2
+    import/no-namespace: 2
+    import/no-nodejs-modules: 2
+    import/prefer-default-export: 2
     no-alert: 2
     no-constant-condition:
       - 2

@@ -89,7 +89,10 @@ This config is biased and opinionated, and errs on the side of too many rules in
 allows [es2015 modules](https://github.com/ModuleLoader/es6-module-loader/wiki/Brief-Overview-of-ES6-Module-syntax) and [es2016 object rest and spread](https://github.com/sebmarkbage/ecmascript-rest-spread) [to be parsed](http://eslint.org/docs/user-guide/configuring#specifying-parser-options), and applies [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) to all js code
 
 ```yaml
-  extends: eslint:recommended
+  extends:
+    - eslint:recommended
+    - plugin:import/errors
+    - plugin:import/warnings
 ```
 
 includes the following rules:
@@ -140,6 +143,15 @@ includes the following rules:
 - [`use-isnan`](http://eslint.org/docs/rules/use-isnan): disallow comparisons with `NaN`, requiring calls to `isNaN()` instead
 - [`valid-typeof`](http://eslint.org/docs/rules/valid-typeof): enforce comparing `typeof` expressions against valid type strings
 
+- [`import/no-unresolved`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md): ensure imports point to a file/module that can be resolved
+- [`import/named`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md): ensure named imports correspond to a named export in the remote file
+- [`import/namespace`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md): ensure imported namespaces contain dereferenced properties as they are dereferenced
+- [`import/default`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md): ensure a default export is present, given a default import
+- [`import/export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/expor.md): report any invalid exports, i.e. re-export of the same name
+
+- [`import/no-named-as-default`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md): report use of exported name as identifier of default export; set to warn only
+- [`import/no-named-as-default-member`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md): report use of exported name as property of default export; set to warn only
+
 ```yaml
   rules:
 ```
@@ -150,6 +162,14 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style): require braces around arrow function bodies, `as-needed`
 - [`dot-notation`](http://eslint.org/docs/rules/dot-notation): enforce dot notation for accessing object properties whenever possible
 - [`eqeqeq`](http://eslint.org/docs/rules/eqeqeq): prefer `===` and `!==` over `==` and `!=`
+- [`import/no-amd`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md): report AMD `require` and `define` calls
+- [`import/no-commonjs`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md): report CommonJS `require` calls and `module.exports` or `exports.*`
+- [`import/no-duplicates`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md): report repeated import of the same module in multiple places
+- [`import/no-extraneous-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md): forbid the use of extraneous packages
+- [`import/no-mutable-exports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md): forbid the use of mutable exports with `var` or `let`
+- [`import/no-namespace`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md): report namespace imports
+- [`import/no-nodejs-modules`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md): disallow node.js builtin modules
+- [`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md): prefer a default export if module exports a single name
 - [`no-alert`](http://eslint.org/docs/rules/no-alert): disallow the use of `alert`, `confirm`, and `prompt`
 - [`no-constant-condition`](http://eslint.org/docs/rules/no-constant-condition): override `eslint:recommended` with `checkLoops: false` to avoid errors in infinite [generators](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/function*)
 - [`no-duplicate-imports`](http://eslint.org/docs/rules/no-duplicate-imports): disallow duplicate module imports

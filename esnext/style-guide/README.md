@@ -83,6 +83,9 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`curly`](http://eslint.org/docs/rules/curly): require curly braces around blocks if they contain multiple statements, disallow braces if not
 - [`dot-location`](http://eslint.org/docs/rules/dot-location): require the dot in a member expression to be on the same line as the property portion
 - [`generator-star-spacing`](http://eslint.org/docs/rules/generator-star-spacing): enforce spacing before and disallow after `*` operators in generator functions
+- [`import/extensions`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md): ensure consistent use of file extensions in import paths
+- [`import/imports-first`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md): ensure all imports appear before other statements
+- [`import/newline-after-import`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md): enforce a newline after import statements
 - [`indent`](http://eslint.org/docs/rules/indent): enforce tabs ([w](http://programmers.stackexchange.com/a/72)[h](http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/)[y](https://news.ycombinator.com/item?id=11801496)?), `SwitchCase: 1`; override in your `.eslintrc` if you disagree
 - [`key-spacing`](http://eslint.org/docs/rules/key-spacing): disallow spacing after keys and enforce spacing before values in object literal properties
 - [`keyword-spacing`](http://eslint.org/docs/rules/keyword-spacing): enforce spacing before and after keywords
