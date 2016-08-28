@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-native",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Pluggable ESLint config for React Native that you can import, extend and override",
   "main": "index.js",
   "scripts": {
@@ -29,18 +29,18 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config/react-native#readme",
   "dependencies": {
-    "eslint": "~3.2.0",
-    "eslint-config-esnext": "~1.5.0",
-    "eslint-plugin-react": "~5.2.2",
-    "eslint-plugin-react-native": "~1.1.0"
+    "eslint": "~3.4.0",
+    "eslint-config-esnext": "~1.6.0",
+    "eslint-plugin-react": "~6.2.0",
+    "eslint-plugin-react-native": "~2.0.0"
   },
   "devDependencies": {
     "js-yaml": "~3.6.1"
   },
   "peerDependencies": {
-    "eslint": "~3.2.0",
-    "eslint-config-esnext": "~1.5.0",
-    "eslint-plugin-react": "~5.2.2",
-    "eslint-plugin-react-native": "~1.1.0"
+    "eslint": "~3.4.0",
+    "eslint-config-esnext": "~1.6.0",
+    "eslint-plugin-react": "~6.2.0",
+    "eslint-plugin-react-native": "~2.0.0"
   }
 }

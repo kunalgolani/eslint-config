@@ -82,7 +82,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`consistent-this`](http://eslint.org/docs/rules/consistent-this): allow `this` to only be assigned to a variable named `that`
 - [`curly`](http://eslint.org/docs/rules/curly): require curly braces around blocks if they contain multiple statements, disallow braces if not
 - [`dot-location`](http://eslint.org/docs/rules/dot-location): require the dot in a member expression to be on the same line as the property portion
-- [`generator-star-spacing`](http://eslint.org/docs/rules/generator-star-spacing): enforce spacing before and disallow after `*` operators in generator functions
+- [`func-call-spacing`](http://eslint.org/docs/rules/func-call-spacing): disallow spacing between `function` identifiers and their invocations
 - [`import/extensions`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md): ensure consistent use of file extensions in import paths
 - [`import/imports-first`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md): ensure all imports appear before other statements
 - [`import/newline-after-import`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md): enforce a newline after import statements
@@ -93,7 +93,6 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`newline-per-chained-call`](http://eslint.org/docs/rules/newline-per-chained-call): require a newline after each call in a method chain exceeding 2 calls
 - [`no-extra-parens`](http://eslint.org/docs/rules/no-extra-parens): disallow unnecessary parentheses; set to warn only
 - [`no-multi-spaces`](http://eslint.org/docs/rules/no-multi-spaces): disallow multiple spaces that are not used for indentation
-- [`no-spaced-func`](http://eslint.org/docs/rules/no-spaced-func): disallow spacing between `function` identifiers and their applications
 - [`no-trailing-spaces`](http://eslint.org/docs/rules/no-trailing-spaces): disallow trailing whitespace at the end of lines
 - [`no-whitespace-before-property`](http://eslint.org/docs/rules/no-whitespace-before-property): disallow whitespace before properties
 - [`object-curly-newline`](http://eslint.org/docs/rules/object-curly-newline): require line breaks inside braces if there are line breaks inside properties or between properties in object literals

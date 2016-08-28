@@ -30,7 +30,7 @@
     dot-location:
       - 2
       - property
-    generator-star-spacing: 1
+    func-call-spacing: 2
     import/extensions: 2
     import/imports-first: 2
     import/newline-after-import: 2
@@ -45,7 +45,6 @@
     newline-per-chained-call: 2
     no-extra-parens: 1
     no-multi-spaces: 2
-    no-spaced-func: 2
     no-trailing-spaces: 2
     no-whitespace-before-property: 2
     object-curly-newline: 2

@@ -82,15 +82,13 @@ provides [React](https://github.com/yannickcr/eslint-plugin-react#list-of-suppor
 - [`react/jsx-no-undef`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md): disallow undeclared variables as JSX components
 - [`react/jsx-uses-react`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md): prevent React from being marked as unused in a file using JSX
 - [`react/jsx-uses-vars`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md): prevent variables used in JSX to be incorrectly marked as unused
-- [`react/no-danger`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md): prevent usage of `dangerouslySetInnerHTML`
 - [`react/no-deprecated`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md): prevent usage of deprecated methods
-- [`react/no-did-mount-set-state`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md): prevent usage of `setState` in `componentDidMount`, but allow inside callbacks
-- [`react/no-did-update-set-state`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md): prevent usage of `setState` in `componentDidUpdate`, but allow inside callbacks
 - [`react/no-direct-mutation-state`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md): prevent direct mutation of `this.state`
 - [`react/no-is-mounted`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md): prevent usage of `isMounted`
 - [`react/no-unknown-property`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md): prevent usage of unknown DOM property
 - [`react/prop-types`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md): prevent missing props validation in a React component definition
 - [`react/react-in-jsx-scope`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md): prevent missing `React` when using JSX
+- [`react/require-render-return`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md): prevent missing `return` in `render()`
 
 ```yaml
   rules:
@@ -105,14 +103,19 @@ selected [from here](https://github.com/yannickcr/eslint-plugin-react#list-of-su
 - [`react/jsx-boolean-value`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md): prefer shorthand if an attribute has a `true` value in JSX
 - [`react/jsx-handler-names`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md): enforce event handler naming conventions in JSX
 - [`react/jsx-key`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md): validate JSX has `key` prop when in array or iterator; set to warn only
+- [`react/jsx-no-bind`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md): prevent usage of `.bind()` and arrow functions in JSX props; set to warn only
 - [`react/jsx-pascal-case`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md): enforce PascalCase for user-defined JSX components
+- [`react/jsx-wrap-multilines`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md): prevent missing parentheses around multiline JSX
+- [`react/no-danger`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md): prevent usage of `dangerouslySetInnerHTML`
+- [`react/no-did-mount-set-state`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md): prevent usage of `setState` in `componentDidMount`, but allow inside callbacks
+- [`react/no-did-update-set-state`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md): prevent usage of `setState` in `componentDidUpdate`, but allow inside callbacks
+- [`react/no-find-dom-node`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-find-dom-node.md): Prevent usage of `findDOMNode`
 - [`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md): prevent multiple component definitions per file, apart from stateless functional components
 - [`react/no-render-return-value`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md): prevent usage of the return value of `ReactDOM.render()`
-- [`react/no-string-refs`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md): prevent using string references in `ref` attribute.
+- [`react/no-string-refs`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md): prevent using string references in `ref` attribute
+- [`react/no-unused-prop-types`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md): prevent definitions of unused prop types
 - [`react/prefer-es6-class`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md): enforce ES5 or ES6 class for React Components
 - [`react/prefer-stateless-function`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md): enforce stateless React Components to be written as a pure function
-- [`react/require-render-return`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md): prevent missing `return` in `render()`
-- [`react/wrap-multilines`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md): prevent missing parentheses around multiline JSX
 
 ---
 

@@ -123,8 +123,6 @@ includes the following rules:
 - [`no-invalid-regexp`](http://eslint.org/docs/rules/no-invalid-regexp): disallow invalid regular expression strings in `RegExp` constructors
 - [`no-irregular-whitespace`](http://eslint.org/docs/rules/no-irregular-whitespace): disallow irregular whitespace outside of strings and comments
 - [`no-mixed-spaces-and-tabs`](http://eslint.org/docs/rules/no-mixed-spaces-and-tabs): disallow mixed spaces and tabs for indentation
-- [`no-native-reassign`](http://eslint.org/docs/rules/no-native-reassign): disallow assignments to native objects or read-only global variables
-- [`no-negated-in-lhs`](http://eslint.org/docs/rules/no-negated-in-lhs): disallow negating the left operand in `in` expressions
 - [`no-new-symbol`](http://eslint.org/docs/rules/no-new-symbol): disallow `new` operators with the `Symbol` object
 - [`no-obj-calls`](http://eslint.org/docs/rules/no-obj-calls): disallow calling global object properties as functions
 - [`no-octal`](http://eslint.org/docs/rules/no-octal): disallow octal literals
@@ -160,6 +158,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 
 - [`array-callback-return`](http://eslint.org/docs/rules/array-callback-return): enforce `return` statements in callbacks to array prototype methods such as `map`, `reduce`, `find` etc.
 - [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style): require braces around arrow function bodies, `as-needed`
+- [`class-methods-use-this`](http://eslint.org/docs/rules/class-methods-use-this): disallow class methods that don't use `this`
 - [`dot-notation`](http://eslint.org/docs/rules/dot-notation): enforce dot notation for accessing object properties whenever possible
 - [`eqeqeq`](http://eslint.org/docs/rules/eqeqeq): prefer `===` and `!==` over `==` and `!=`
 - [`import/no-amd`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md): report AMD `require` and `define` calls
@@ -178,6 +177,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`no-eval`](http://eslint.org/docs/rules/no-eval): disallow the use of `eval()`
 - [`no-extend-native`](http://eslint.org/docs/rules/no-extend-native): disallow extending built-in or native objects
 - [`no-extra-bind`](http://eslint.org/docs/rules/no-extra-bind): disallow binding functions that don't use `this`
+- [`no-global-assign`](http://eslint.org/docs/rules/no-global-assign): disallow assignments to native objects or read-only global variables
 - [`no-implicit-globals`](http://eslint.org/docs/rules/no-implicit-globals): disallow `var` and named `function` declarations in the global scope, doesn't apply to modules
 - [`no-implied-eval`](http://eslint.org/docs/rules/no-implied-eval): disallow the use of eval()-like methods
 - [`no-invalid-this`](http://eslint.org/docs/rules/no-invalid-this): disallow `this` outside of constructors, classes or methods
@@ -192,6 +192,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`no-throw-literal`](http://eslint.org/docs/rules/no-throw-literal): disallow throwing literals as exceptions
 - [`no-unmodified-loop-condition`](http://eslint.org/docs/rules/no-unmodified-loop-condition): enforce updating the loop condition in each iteration
 - [`no-unneeded-ternary`](http://eslint.org/docs/rules/no-unneeded-ternary): disallow ternary operators when simpler alternatives exist; `defaultAssignment: false` prefers `||` for default assignments
+- [`no-unsafe-negation`](http://eslint.org/docs/rules/no-unsafe-negation): disallow negating the left operand of relational operators like `in` and `instanceof`
 - [`no-unused-expressions`](http://eslint.org/docs/rules/no-unused-expressions): disallow expressions that have no effect on the state of the program, with `allowShortCircuit: true` and `allowTernary: true` allowing `&&`, `||` and the ternary operator as shorthands for `if` and `else`
 - [`no-use-before-define`](http://eslint.org/docs/rules/no-use-before-define): disallow the use of variables before they are defined; `nofunc` ignores `function` declarations since they're hoisted
 - [`no-useless-call`](http://eslint.org/docs/rules/no-useless-call): disallow unnecessary `.call()` and `.apply()`
