@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "babel-eslint": "~6.1.0",
-    "eslint": "~3.4.0",
+    "eslint": "~4.*.*",
     "eslint-config-esnext": "~1.6.0",
     "eslint-plugin-babel": "~3.3.0",
     "eslint-plugin-import": "~1.14.0",
