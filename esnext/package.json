@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-esnext",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Pluggable eslint config for ECMAScript Next that you can import, extend and override",
   "main": "index.js",
   "scripts": {
@@ -31,18 +31,18 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config/esnext#readme",
   "dependencies": {
-    "babel-eslint": "~6.1.0",
-    "eslint": "~3.4.0",
-    "eslint-plugin-babel": "~3.3.0",
-    "eslint-plugin-import": "~1.14.0"
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.0.0",
+    "eslint-plugin-babel": "~4.1.2",
+    "eslint-plugin-import": "^2.8.0"
   },
   "devDependencies": {
-    "js-yaml": "~3.6.1"
+    "js-yaml": "^3.6.1"
   },
   "peerDependencies": {
-    "babel-eslint": "~6.1.0",
-    "eslint": "~3.4.0",
-    "eslint-plugin-babel": "~3.3.0",
-    "eslint-plugin-import": "~1.14.0"
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.0.0",
+    "eslint-plugin-babel": "~4.1.2",
+    "eslint-plugin-import": "^2.8.0"
   }
 }
