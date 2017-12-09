@@ -14,16 +14,7 @@
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "eslintconfig",
-    "esnext",
-    "es6",
-    "es7",
-    "es2015",
-    "es2016"
-  ],
+  "keywords": ["eslint", "eslint-config", "eslintconfig", "esnext", "es6", "es7", "es2015", "es2016"],
   "author": "kunalgolani@gmail.com",
   "license": "ISC",
   "bugs": {

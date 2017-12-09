@@ -1,11 +1,13 @@
 {
   "name": "eslint-config-recommended",
   "version": "2.0.0",
-  "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
+  "description":
+    "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "cd esnext && npm run prepublish && cd ../node && npm run prepublish && cd ../react-native && npm run prepublish && cd ..",
+    "precommit":
+      "cd esnext && npm run prepublish && cd ../node && npm run prepublish && cd ../react-native && npm run prepublish && cd ..",
     "prepublish": "npm run precommit"
   },
   "repository": {
@@ -43,7 +45,7 @@
   "dependencies": {
     "babel-eslint": "^8.0.2",
     "eslint": "^4.0.0",
-    "eslint-config-esnext": "^1.6.0",
+    "eslint-config-esnext": "^2.0.0",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-react": "^7.5.0",
@@ -52,7 +54,7 @@
   "peerDependencies": {
     "babel-eslint": "^8.0.2",
     "eslint": "^4.0.0",
-    "eslint-config-esnext": "^1.6.0",
+    "eslint-config-esnext": "^2.0.0",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-react": "^7.5.0",
