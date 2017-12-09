@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-recommended",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
   "main": "index.js",
   "scripts": {
@@ -37,25 +37,25 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config#readme",
   "devDependencies": {
-    "husky": "~0.11.5",
-    "js-yaml": "~3.6.1"
+    "husky": "^0.11.5",
+    "js-yaml": "^3.6.1"
   },
   "dependencies": {
-    "babel-eslint": "~6.1.0",
-    "eslint": "~3.4.0",
-    "eslint-config-esnext": "~1.6.0",
-    "eslint-plugin-babel": "~3.3.0",
-    "eslint-plugin-import": "~1.14.0",
-    "eslint-plugin-react": "~6.2.0",
-    "eslint-plugin-react-native": "~2.0.0"
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.0.0",
+    "eslint-config-esnext": "^1.6.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.0",
+    "eslint-plugin-react-native": "^3.2.0"
   },
   "peerDependencies": {
-    "babel-eslint": "~6.1.0",
-    "eslint": "~3.4.0",
-    "eslint-config-esnext": "~1.6.0",
-    "eslint-plugin-babel": "~3.3.0",
-    "eslint-plugin-import": "~1.14.0",
-    "eslint-plugin-react": "~6.2.0",
-    "eslint-plugin-react-native": "~2.0.0"
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.0.0",
+    "eslint-config-esnext": "^1.6.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.0",
+    "eslint-plugin-react-native": "^3.2.0"
   }
 }
