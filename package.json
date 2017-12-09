@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config#readme",
   "devDependencies": {
-    "husky": "^0.11.5",
+    "husky": "^0.14.3",
     "js-yaml": "^3.6.1"
   },
   "dependencies": {
