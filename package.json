@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit":
-      "cd esnext && npm run prepublish && cd ../node && npm run prepublish && cd ../react-native && npm run prepublish && cd ..",
-    "prepublish": "npm run precommit"
+      "cd esnext && npm run prepare && cd ../node && npm run prepare && cd ../react-native && npm run prepare && cd ..",
+    "prepare": "npm run precommit"
   },
   "repository": {
     "type": "git",
