@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-esnext",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Pluggable eslint config for ECMAScript Next that you can import, extend and override",
   "main": "index.js",
   "scripts": {

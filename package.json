@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-recommended",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
   "main": "index.js",
   "scripts": {
@@ -44,7 +44,7 @@
   "dependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
-    "eslint-config-esnext": "^2.0.0",
+    "eslint-config-esnext": "^3.0.0",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.9.1",
