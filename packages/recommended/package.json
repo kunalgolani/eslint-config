@@ -1,14 +1,11 @@
 {
-  "name": "@kunalgolani/eslint-config",
+  "name": "eslint-config-recommended",
   "version": "3.0.0",
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
   "main": false,
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "cd packages/esnext && npm run prepare && cd ../node && npm run prepare && cd ../react-native && npm run prepare && cd ../..",
-    "prepare": "npm run precommit",
-    "postinstall": "lerna bootstrap"
+    "prepare": "echo"
   },
   "repository": {
     "type": "git",
@@ -38,18 +35,17 @@
     "url": "https://github.com/kunalgolani/eslint-config/issues"
   },
   "homepage": "https://github.com/kunalgolani/eslint-config#readme",
-  "devDependencies": {
-    "husky": "^0.14.3",
-    "js-yaml": "^3.12.0",
-    "lerna": "^2.11.0"
-  },
   "dependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
     "eslint-config-esnext": "^3.0.0",
+    "eslint-config-node": "^3.0.0",
+    "eslint-config-react-native": "^3.0.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.0.0",
     "eslint-plugin-babel": "^5.1.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-react": "^7.9.1",
-    "eslint-plugin-react-native": "^3.2.1"
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.0",
+    "eslint-plugin-react-native": "^3.2.0"
   }
 }
