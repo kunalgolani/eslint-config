@@ -11,38 +11,9 @@
 
 #### Usage
 
-In your js project directory:
+See individual packages
 
-```shell
-npm install --save-dev eslint-config-recommended
-```
-
-Choose the configs you want to include in your `.eslintrc.yaml`:
-
-```yaml
-extends:
-  - esnext
-  - esnext/style-guide
-  - node
-  - node/style-guide
-  - react-native
-  - react-native/style-guide
-```
-
-Alternatively, in your `.eslintrc.js` or `.eslintrc.json`:
-
-```json
-{
-  "extends": ["esnext", "esnext/style-guide", "node", "node/style-guide", "react-native", "react-native/style-guide"]
-}
-```
-
-`node` and `react-native` extend `esnext`
-
-`node/style-guide` and `react-native/style-guide` extend `esnext/style-guide`
-
-If you don't need all these configs, you can also install them individually:
-
+- [Recommended](https://github.com/kunalgolani/eslint-config/tree/master/packages/recommended)
 - [ESNext](https://github.com/kunalgolani/eslint-config/tree/master/packages/esnext)
 - [Node.js](https://github.com/kunalgolani/eslint-config/tree/master/packages/node)
 - [React Native](https://github.com/kunalgolani/eslint-config/tree/master/packages/react-native)
@@ -67,6 +38,7 @@ And in your `package.json`:
 
 These configs are biased and opinionated, and err on the side of too many rules instead of too few. Think of them as a superset of your repo's lint config, and discard what you don't like in them. It's easy to override and disable the rules you find inconvenient.
 
+- [Recommended](https://github.com/kunalgolani/eslint-config/tree/master/packages/recommended)
 - [ESNext](https://github.com/kunalgolani/eslint-config/tree/master/packages/esnext)
 - [ESNext Style Guide](https://github.com/kunalgolani/eslint-config/tree/master/packages/esnext/style-guide)
 - [Node.js](https://github.com/kunalgolani/eslint-config/tree/master/packages/node)

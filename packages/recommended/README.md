@@ -19,12 +19,12 @@ Choose the configs you want to include in your `.eslintrc.yaml`:
 
 ```yaml
 extends:
-  - esnext
-  - esnext/style-guide
-  - node
-  - node/style-guide
-  - react-native
-  - react-native/style-guide
+  - recommended/esnext
+  - recommended/esnext/style-guide
+  - recommended/node
+  - recommended/node/style-guide
+  - recommended/react-native
+  - recommended/react-native/style-guide
 ```
 
 Alternatively, in your `.eslintrc.js` or `.eslintrc.json`:
