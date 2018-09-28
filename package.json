@@ -2,7 +2,6 @@
   "name": "@kunalgolani/eslint-config",
   "version": "3.0.0",
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
-  "main": false,
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

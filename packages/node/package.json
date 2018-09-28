@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/kunalgolani/eslint-config/issues"
   },
-  "homepage": "https://github.com/kunalgolani/eslint-config/node#readme",
+  "homepage": "https://github.com/kunalgolani/eslint-config/tree/master/packages/node#readme",
   "dependencies": {
     "eslint": "^4.19.1",
     "eslint-config-esnext": "^3.0.0"

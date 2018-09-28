@@ -1,12 +1,11 @@
-## Pluggable [ESLint](http://eslint.org/docs/about/) [config](http://eslint.org/docs/developer-guide/shareable-configs) for [ECMAScript Next](kangax.github.io/compat-table/esnext) that you can import, extend and override
+## Pluggable [ESLint](http://eslint.org/docs/about/) [config](http://eslint.org/docs/developer-guide/shareable-configs) for [ECMAScript Next](https://kangax.github.io/compat-table/esnext) that you can import, extend and override
 
 [![Join the chat at https://gitter.im/kunalgolani/eslint-config ][gitter-img]][gitter-url]
 [![npm version][version-img]][npm-url]
 [![npm downloads][downloads-img]][npm-url]
 [![GitHub issues][issues-img]][issues-url]
 [![Deps][deps-img]][deps-url]
-[![Dev Deps][devDeps-img]][deps-url]
-
+[![Dev Deps][devdeps-img]][deps-url]
 
 ### ESNext: Safety Checks and Best Practices with a bias toward code concision / brevity
 
@@ -29,9 +28,8 @@ npm install --save-dev babel-eslint eslint-plugin-babel
 And in your `.eslintrc.yaml`:
 
 ```yaml
----
-  extends:
-    - esnext
+extends:
+  - esnext
 ```
 
 Alternatively, in your `.eslintrc.js` or `.eslintrc.json`:
@@ -63,36 +61,36 @@ And in your `package.json`:
 This config is biased and opinionated, and errs on the side of too many rules instead of too few. Think of this as a superset of your repo's lint config, and discard what you don't like in it. It's easy to override and disable the rules you find inconvenient.
 
 ```yaml
-  env:
-    es6: true
-    commonjs: true
+env:
+  es6: true
+  commonjs: true
 ```
 
 [enables](http://eslint.org/docs/user-guide/configuring#specifying-environments) [ES6 features](https://github.com/lukehoban/es6features#readme) and [CommonJS modules](https://www.wikiwand.com/en/CommonJS)
 
 ```yaml
-  parser: babel-eslint
+parser: babel-eslint
 ```
 
 [enables parsing](https://github.com/babel/babel-eslint) all [babel](https://babeljs.io/) [supported code](https://babeljs.io/docs/plugins/)
 
 ```yaml
-  parserOptions:
-    ecmaVersion: 7
-    sourceType: module
-    ecmaFeatures:
-      impliedStrict: true
-      modules: true
-      experimentalObjectRestSpread: true
+parserOptions:
+  ecmaVersion: 7
+  sourceType: module
+  ecmaFeatures:
+    impliedStrict: true
+    modules: true
+    experimentalObjectRestSpread: true
 ```
 
 allows [es2015 modules](https://github.com/ModuleLoader/es6-module-loader/wiki/Brief-Overview-of-ES6-Module-syntax) and [es2016 object rest and spread](https://github.com/sebmarkbage/ecmascript-rest-spread) [to be parsed](http://eslint.org/docs/user-guide/configuring#specifying-parser-options), and applies [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) to all js code
 
 ```yaml
-  extends:
-    - eslint:recommended
-    - plugin:import/errors
-    - plugin:import/warnings
+extends:
+  - eslint:recommended
+  - plugin:import/errors
+  - plugin:import/warnings
 ```
 
 includes the following rules:
@@ -151,7 +149,7 @@ includes the following rules:
 - [`import/no-named-as-default-member`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md): report use of exported name as property of default export; set to warn only
 
 ```yaml
-  rules:
+rules:
 ```
 
 selected [from here](http://eslint.org/docs/rules/), configured to:
@@ -212,8 +210,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 
 ---
 
-### [ESNext Style Guide](https://github.com/kunalgolani/eslint-config/tree/master/esnext/style-guide)
-
+### [ESNext Style Guide](https://github.com/kunalgolani/eslint-config/tree/master/packages/esnext/style-guide)
 
 [gitter-img]: https://badges.gitter.im/kunalgolani/eslint-config.svg
 [gitter-url]: https://gitter.im/kunalgolani/eslint-config?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
@@ -223,5 +220,5 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 [issues-img]: https://img.shields.io/github/issues-raw/kunalgolani/eslint-config.svg?maxAge=2592000
 [issues-url]: https://github.com/kunalgolani/eslint-config/issues
 [deps-img]: https://img.shields.io/david/kunalgolani/eslint-config.svg
-[devDeps-img]: https://img.shields.io/david/dev/kunalgolani/eslint-config.svg
+[devdeps-img]: https://img.shields.io/david/dev/kunalgolani/eslint-config.svg
 [deps-url]: https://github.com/kunalgolani/eslint-config/blob/master/esnext/package.json
