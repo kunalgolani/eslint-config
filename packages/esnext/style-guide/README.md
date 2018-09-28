@@ -92,7 +92,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`no-multi-spaces`](http://eslint.org/docs/rules/no-multi-spaces): disallow multiple spaces that are not used for indentation
 - [`no-trailing-spaces`](http://eslint.org/docs/rules/no-trailing-spaces): disallow trailing whitespace at the end of lines
 - [`no-whitespace-before-property`](http://eslint.org/docs/rules/no-whitespace-before-property): disallow whitespace before properties
-- [`object-curly-newline`](http://eslint.org/docs/rules/object-curly-newline): require line breaks inside braces if there are line breaks inside properties or between properties in object literals
+- [`object-curly-newline`](http://eslint.org/docs/rules/object-curly-newline): require that either both curly braces, or neither, directly enclose newlines
 - [`object-curly-spacing`](http://eslint.org/docs/rules/object-curly-spacing): enforce spacing inside curly braces
 - [`object-property-newline`](http://eslint.org/docs/rules/object-property-newline): enforce placing object properties on separate lines; set to warn only
 - [`one-var-declaration-per-line`](http://eslint.org/docs/rules/one-var-declaration-per-line): require newlines around var initializations

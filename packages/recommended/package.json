@@ -35,16 +35,12 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config/tree/master/packages/recommended#readme",
   "dependencies": {
+    "eslint": "^5.6.0",
     "eslint-config-esnext": "^3.0.2",
     "eslint-config-node": "^3.0.2",
     "eslint-config-react-native": "^3.0.2"
   },
   "peerDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^4.0.0",
-    "eslint-plugin-babel": "^5.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-react": "^7.5.0",
-    "eslint-plugin-react-native": "^3.2.0"
+    "eslint": "^5.0.0"
   }
 }

@@ -96,8 +96,11 @@ extends:
 includes the following rules:
 
 - [`constructor-super`](http://eslint.org/docs/rules/constructor-super): require `super()` calls in constructors
+- [`for-direction`](http://eslint.org/docs/rules/for-direction): enforce that a for loop update clause moves the counter in the right direction
+- [`getter-return`](http://eslint.org/docs/rules/getter-return): enforce that a return statement is present in property getters
 - [`no-case-declarations`](http://eslint.org/docs/rules/no-case-declarations): disallow `let`, `const`, `function` and `class` declarations in `case` / `default` clauses inside `switch` blocks
 - [`no-class-assign`](http://eslint.org/docs/rules/no-class-assign): disallow reassigning variables declared as classes
+- [`no-compare-neg-zero`](http://eslint.org/docs/rules/no-compare-neg-zero): disallow comparing against -0
 - [`no-cond-assign`](http://eslint.org/docs/rules/no-cond-assign): disallow assignment operators in conditional expressions
 - [`no-console`](http://eslint.org/docs/rules/no-console): disallow the use of `console`
 - [`no-const-assign`](http://eslint.org/docs/rules/no-const-assign): disallow reassigning `const` variables
@@ -135,6 +138,7 @@ includes the following rules:
 - [`no-unsafe-finally`](http://eslint.org/docs/rules/no-unsafe-finally): disallow control flow statements in `finally` blocks
 - [`no-unused-labels`](http://eslint.org/docs/rules/no-unused-labels): disallow unused [labels](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/label)
 - [`no-unused-vars`](http://eslint.org/docs/rules/no-unused-vars): disallow unused variables
+- [`no-useless-escape`](http://eslint.org/docs/rules/no-useless-escape): disallow unnecessary escape characters
 - [`require-yield`](http://eslint.org/docs/rules/require-yield): require generator functions to contain `yield`
 - [`use-isnan`](http://eslint.org/docs/rules/use-isnan): disallow comparisons with `NaN`, requiring calls to `isNaN()` instead
 - [`valid-typeof`](http://eslint.org/docs/rules/valid-typeof): enforce comparing `typeof` expressions against valid type strings
@@ -197,7 +201,6 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`no-useless-computed-key`](http://eslint.org/docs/rules/no-useless-computed-key): disallow unnecessary computed property keys in object literals
 - [`no-useless-concat`](http://eslint.org/docs/rules/no-useless-concat): disallow unnecessary concatenation of literals or template literals
 - [`no-useless-constructor`](http://eslint.org/docs/rules/no-useless-constructor): disallow unnecessary constructors
-- [`no-useless-escape`](http://eslint.org/docs/rules/no-useless-escape): disallow unnecessary escape characters
 - [`no-useless-rename`](http://eslint.org/docs/rules/no-useless-rename): disallow renaming `import`, `export`, and destructured assignments to the same name
 - [`no-var`](http://eslint.org/docs/rules/no-var): require `let` or `const` instead of `var`
 - [`no-with`](http://eslint.org/docs/rules/no-with): disallow `with` statements
