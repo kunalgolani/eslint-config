@@ -18,6 +18,8 @@ See individual packages
 - [Node.js](https://github.com/kunalgolani/eslint-config/tree/master/packages/node)
 - [React Native](https://github.com/kunalgolani/eslint-config/tree/master/packages/react-native)
 
+**Note**: eslint-config-recommended comes with esnext, node and react-native. If you don't need all these configs, you can install them individually (it's preferred, because you can keep node_modules light weight).
+
 Eslint-config-* packages are compatible with 5 and 6th versions of eslint.
 
 To add a git-hook to your commits, consider using [husky](https://github.com/typicode/husky)
