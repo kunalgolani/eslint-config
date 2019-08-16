@@ -18,6 +18,8 @@ See individual packages
 - [Node.js](https://github.com/kunalgolani/eslint-config/tree/master/packages/node)
 - [React Native](https://github.com/kunalgolani/eslint-config/tree/master/packages/react-native)
 
+**Note**: you should include postcss@7 into devDependencies of your project manually. eslint-config-* packages requires it as a peer and does not install it to avoid swallowing the typical node_modules directory.
+
 To add a git-hook to your commits, consider using [husky](https://github.com/typicode/husky)
 
 ```shell
