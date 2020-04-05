@@ -38,8 +38,8 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config#readme",
   "devDependencies": {
-    "husky": "^1.0.1",
-    "js-yaml": "^3.12.0",
-    "lerna": "^3.4.0"
+    "husky": "^4.2.3",
+    "js-yaml": "^3.13.1",
+    "lerna": "^3.20.2"
   }
 }
