@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-recommended",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
