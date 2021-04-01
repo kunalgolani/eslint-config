@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config/tree/master/packages/node#readme",
   "dependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.22.0",
     "eslint-config-esnext": "^4.1.0"
   },
   "devDependencies": {
     "js-yaml": "^3.13.1"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": ">=6 <=7"
   }
 }

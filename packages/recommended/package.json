@@ -41,6 +41,6 @@
     "eslint-config-react-native": "^4.1.0"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": ">=6 <=7"
   }
 }
