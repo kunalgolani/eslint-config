@@ -2,7 +2,6 @@
   "name": "eslint-config-react-native",
   "version": "4.1.0",
   "description": "Pluggable ESLint config for React Native that you can import, extend and override",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "js-yaml index.yaml > index.json && js-yaml style-guide/index.yaml > style-guide/index.json"
