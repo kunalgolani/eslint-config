@@ -1,5 +1,5 @@
 plugins:
-  - babel
+  - "@babel"
 
 rules:
   array-bracket-spacing:
