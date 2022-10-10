@@ -21,7 +21,7 @@ npm install --save-dev eslint-config-esnext
 If your environments node.js version is less than `5.0` or your npm version is lower than `3.0`, you may also need to install:
 
 ```shell
-npm install --save-dev @babel/eslint-parser eslint-plugin-babel
+npm install --save-dev @babel/eslint-parser @babel/eslint-plugin
 ```
 -->
 
