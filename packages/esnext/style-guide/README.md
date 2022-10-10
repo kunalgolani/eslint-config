@@ -68,7 +68,7 @@ selected [from here](http://eslint.org/docs/rules/), configured to:
 - [`array-bracket-spacing`](http://eslint.org/docs/rules/array-bracket-spacing): enforce spacing inside array brackets
 - [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens): require parentheses around arrow function arguments, `as-needed`
 - [`arrow-spacing`](http://eslint.org/docs/rules/arrow-spacing): enforce spacing before and after `=>` in arrow functions
-- [`babel/generator-star-spacing`](https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin#rules): alternative to `generator-star-spacing` that handles `async` functions and `await` properly
+- [`generator-star-spacing`](https://eslint.org/docs/latest/rules/generator-star-spacing): enforce consistent spacing around * operators in generator functions
 - [`block-spacing`](http://eslint.org/docs/rules/block-spacing): enforce spacing inside single-line blocks
 - [`brace-style`](http://eslint.org/docs/rules/brace-style): enforce [K&R brace style](https://www.wikiwand.com/en/Indent_style#/K.26R_style)
 - [`camelcase`](http://eslint.org/docs/rules/camelcase): enforce camelcase naming convention, ignore object properties
