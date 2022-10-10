@@ -37,6 +37,6 @@
     "js-yaml": "^4.1.0"
   },
   "peerDependencies": {
-    "eslint": ">=6 <=7"
+    "eslint": ">=7.5.0 <=9"
   }
 }
