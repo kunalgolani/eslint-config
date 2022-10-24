@@ -29,14 +29,14 @@ And in your `.eslintrc.yaml`:
 
 ```yaml
 extends:
-  - esnext
+  - @nazarkulyk/esnext
 ```
 
 Alternatively, in your `.eslintrc.js` or `.eslintrc.json`:
 
 ```json
 {
-  "extends": ["esnext"]
+  "extends": ["@nazarkulyk/esnext"]
 }
 ```
 

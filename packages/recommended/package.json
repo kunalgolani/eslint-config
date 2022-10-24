@@ -1,17 +1,13 @@
 {
-  "name": "eslint-config-recommended",
-  "version": "4.1.0",
+  "name": "@nazarkulyk/eslint-config-recommended",
+  "version": "5.0.0",
   "description": "Pluggable ESLint configs for ECMAScript Next, Node.js and React Native that you can import, extend and override",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "echo"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kunalgolani/eslint-config.git"
-  },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "url": "git+https://github.com/nazarkulyk/eslint-config-esnext.git"
   },
   "keywords": [
     "eslint",
@@ -28,17 +24,13 @@
     "reactjs",
     "react-native"
   ],
-  "author": "kunalgolani@gmail.com",
+  "author": "nazar.kulyk@ibsolution.de",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kunalgolani/eslint-config/issues"
-  },
-  "homepage": "https://github.com/kunalgolani/eslint-config/tree/master/packages/recommended#readme",
+  "homepage": "https://github.com/nazarkulyk/eslint-config-esnext/tree/master/packages/recommended#readme",
   "dependencies": {
-    "eslint": "^8.25.0",
-    "eslint-config-esnext": "^4.1.0",
-    "eslint-config-node": "^4.1.0",
-    "eslint-config-react-native": "^4.1.0"
+    "eslint": "^8.26.0",
+    "@nazarkulyk/eslint-config-esnext": "^5.0.0",
+    "@nazarkulyk/eslint-config-node": "^5.0.0"
   },
   "peerDependencies": {
     "eslint": ">=7.5.0 <=9"

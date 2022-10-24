@@ -1,1 +1,1 @@
-extends: esnext/style-guide
+extends: "@nazarkulyk/esnext/style-guide"

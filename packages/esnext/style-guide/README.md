@@ -21,14 +21,14 @@ And in your `.eslintrc.yaml`:
 
 ```yaml
 extends:
-  - esnext/style-guide
+  - @nazarkulyk/esnext/style-guide
 ```
 
 Alternatively, in your `.eslintrc.js` or `.eslintrc.json`:
 
 ```json
 {
-  "extends": ["esnext/style-guide"]
+  "extends": ["@nazarkulyk/esnext/style-guide"]
 }
 ```
 
