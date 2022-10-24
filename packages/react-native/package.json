@@ -28,15 +28,15 @@
   },
   "homepage": "https://github.com/kunalgolani/eslint-config/tree/master/packages/react-native#readme",
   "dependencies": {
-    "eslint": "^7.22.0",
+    "eslint": "^8.25.0",
     "eslint-config-esnext": "^4.1.0",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-native": "^3.8.1"
+    "eslint-plugin-react": "^7.31.9",
+    "eslint-plugin-react-native": "^4.0.0"
   },
   "devDependencies": {
-    "js-yaml": "^3.13.1"
+    "js-yaml": "^4.1.0"
   },
   "peerDependencies": {
-    "eslint": ">=6 <=7"
+    "eslint": ">=7.5.0 <=9"
   }
 }
