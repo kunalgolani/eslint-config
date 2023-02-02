@@ -40,6 +40,6 @@
   "devDependencies": {
     "husky": "^4.2.3",
     "js-yaml": "^3.13.1",
-    "lerna": "^3.20.2"
+    "lerna": "^6.4.1"
   }
 }
